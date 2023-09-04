@@ -1,0 +1,5 @@
+# Ignorar imágenes satelitales/datasets
+acolite-main/imagenes/
+*.SAFE/
+acolite-main/imagenes/
+*.SAFE/

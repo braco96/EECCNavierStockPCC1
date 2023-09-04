@@ -1,0 +1,7 @@
+services:
+      acolite:
+        image: acolite/acolite:tact_20231017
+        volumes:
+          - C:\Users\Luisbra\Desktop\edp\imagenes\S2B_MSIL1C_20220131T111209_N0400_R137_T30TVK_20220131T115433.SAFE\S2B_MSIL1C_20220131T111209_N0400_R137_T30TVK_20220131T115433.SAFE:/input  # Montar la carpeta SAFE como /input en el contenedor
+          - C:\Users\Luisbra\Desktop\edp\imagenes\S2B_MSIL1C_20220131T111209_N0400_R137_T30TVK_20220131T115433.SAFE/output:/output  # La salida será escrita en la carpeta actual
+        command: ["acolite", "run", "--settings", "/input/settings.txt"]
