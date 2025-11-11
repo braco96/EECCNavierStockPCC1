@@ -112,6 +112,14 @@ muestra_agua = Muestras(
     firstImage=fecha_inicio_busqueda
 )
 
+Ejecuta el script principal:
+
+python main.py
+
+
+Los resultados procesados (GeoTIFFs) se almacenan en:
+
+imagenes/[NOMBRE_SAFE]/output/
 print("Buscando imágenes...")
 get_satelite_muestras(muestra_agua)
 descargar(muestra_agua)
