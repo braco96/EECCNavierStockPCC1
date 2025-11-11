@@ -111,8 +111,11 @@ muestra_agua = Muestras(
     timeZone=30,
     firstImage=fecha_inicio_busqueda
 )
+    ```
 
-Ejecuta el script principal:
+---
+
+## Ejecuta el script principal:
 
 python main.py
 
